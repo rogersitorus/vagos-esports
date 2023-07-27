@@ -1,0 +1,871 @@
+:root {
+  --primary: #01FFF4;
+  --secondary: ;
+  --bg: #002B5B;
+  --text-color: #FFFFFF;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+  color: var(--text-color);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--bg);
+  color: #fff;
+  min-height: 400vh;
+
+}
+
+.custom-btn {
+  font-family: "Montserrat", sans-serif;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--bg);
+  color: #fff;
+  min-height: 400vh;
+}
+
+.hero-navbar {
+  top: 0;
+  display: flex;
+  position: absolute;
+}
+
+.hero-navbar img {
+  position: absolute;
+  width: 95px;
+  height: 113px;
+  left: 37px;
+  top: 10px;
+}
+
+.hero-navbar ul {
+  position: relative;
+  left: 350px;
+  top: 64px;
+  list-style: none;
+  display: flex;
+  justify-content: end;
+  text-decoration: none;
+}
+
+.hero-navbar li {
+  margin-left: 50px;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+}
+
+.hero-navbar li:hover {
+  color: var(--primary);
+  transition: 0.6s;
+}
+
+.hero-navbar li span {
+  border-radius: 20px;
+  padding: 30px;
+  background-color: #151C24;
+  border: 5px solid var(--primary);
+  /* background-color: rgba(1, 255, 244,0.5); */
+  color: var(--primary);
+}
+
+.hero-navbar .news-start {
+  margin-left: 300px;
+}
+
+.hero-teampage1 img {
+  width: 100%;
+  margin: 0;
+}
+
+.hero-teampage1 {
+  position: static;
+  width: 100%;
+  height: 975px;
+}
+
+.team-ml {
+  left: 8rem;
+}
+
+.team-ml li {
+  list-style: none;
+}
+
+.team-ml a {
+  display: flex;
+  flex-direction: column;
+  margin: 5rem;
+  list-style: none;
+  width: 1090px;
+  height: 200px;
+  left: 70px;
+  top: 1200px;
+}
+
+.pilihan-teampage1 {
+  margin-left: 6rem;
+  margin-top: 8rem;
+}
+
+.pilihan-teampage1 img {
+  border-radius: 10px;
+  width: 100% -23px;
+}
+
+.pilihan-teampage1 h1 {
+  margin-top: 1rem;
+  text-align: center;
+  width: 1299.57px;
+  height: 251px;
+  left: 98px;
+  top: 1000px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 90px;
+  line-height: 98px;
+  color: #e6e6e6;
+}
+
+.pilihan-teampage1 span {
+  color: rgba(1, 255, 244, 0.8);
+}
+
+.footer {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10rem;
+  width: 100%;
+  height: 411px;
+  left: 0;
+  bottom: 0;
+  background-color: rgba(37, 37, 37, 1);
+}
+
+.footer .footer-logo {
+  width: 279px;
+  height: 265px;
+  margin-top: 3rem;
+  margin: auto;
+}
+
+.footer h1 {
+  top: 70px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 58px;
+  line-height: 71px;
+  color: #ffffff;
+  margin: auto;
+}
+
+.footer-info {
+  margin: auto;
+  align-items: center;
+  top: 0;
+  display: flex;
+}
+
+.footer li {
+  margin: auto;
+  list-style: none;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 57px;
+  margin-left: 6rem;
+  color: #ffffff;
+}
+
+.footer span {
+  color: aqua;
+}
+
+.footer-sosmed {
+  margin: auto;
+  margin-left: 10rem;
+  width: 300px;
+  height: 100px;
+  line-height: 34px;
+}
+
+.footer-sosmed img {
+  width: 70px;
+  height: 70px;
+  line-height: 37px;
+}
+
+.footer-sosmed h2 {
+  position: absolute;
+  font-size: 25px;
+  font-weight: 800;
+  margin: auto;
+  text-decoration: underline;
+  color: #ffffff;
+  text-align: center;
+}
+
+.footer-copyright {
+  position: absolute;
+  right: 4rem;
+  bottom: 0;
+}
+
+.footer-copyright h2 {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.hero-teamict {
+  position: relative;
+  display: flex;
+  width: 100%;
+  margin-top: 15rem;
+  height: 610px;
+  background-image: url(img/data.png);
+  background-size: cover;
+  align-items: center;
+  background-repeat: no-repeat;
+}
+
+.hero-teamict .nama {
+  text-align: center;
+  align-items: center;
+  height: 100%;
+  width: 370px;
+  display: flex;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  color: #ffffff;
+}
+
+.nama h1 {
+  margin: auto;
+  text-align: center;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 41px;
+  line-height: 32px;
+  color: #ffffff;
+}
+
+/* nama dan resume player */
+.hero-teamict .info {
+  padding-left: 26rem;
+  padding-top: 10rem;
+  width: 700px;
+  height: 100%;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  color: white;
+}
+
+.hero-teamict .info h1 {
+  color: rgba(0, 43, 91, 1);
+}
+
+.team-text {
+  width: 679px;
+  height: 165px;
+}
+
+/* info end */
+
+/* nama dan role player (bagian kiri) */
+.nama h1 span {
+  font-size: 21px;
+}
+
+.detilinfo {
+  display: flex;
+  color: rgba(0, 43, 91, 1);
+  font-size: smaller;
+  width: 680px;
+}
+
+.detilinfo .left {
+  margin-right: 7rem;
+}
+
+.detilinfo .left h2 {
+  color: #002B5B;
+}
+
+.detilinfo .right h2 {
+  color: #002B5B;
+}
+
+.detilinfo span {
+  font-size: 20px;
+  color: white;
+}
+
+.gambar-pemain {
+  height: 610px;
+  position: absolute;
+  left: 14rem;
+}
+
+.gambar-pemain img {
+  height: 100%;
+}
+
+.about-team {
+  text-align: center;
+  width: 100%;
+  margin-top: 8rem;
+}
+
+.about-team h1 {
+  color: #ffffff;
+
+  font-size: 70px;
+  margin-bottom: 10rem;
+}
+
+.team-choice {
+  display: flex;
+  flex-wrap: wrap;
+  height: 1200px;
+}
+
+.team-choice .choice {
+  padding-left: 2rem;
+  background-image: url(img/team-choice.png);
+  background-size: cover;
+  width: 524px;
+  height: 245px;
+  display: flex;
+  margin-left: 13rem;
+  margin-right: 2rem;
+  text-align: left;
+}
+
+.choice img {
+  height: 100%;
+}
+
+.choice h2 {
+  width: 450px;
+  text-align: left;
+  margin-top: 8rem;
+  font-size: 25px;
+  color: white;
+}
+
+.choice span {
+  font-size: 18px;
+}
+
+.choice div {
+  padding-left: 3rem;
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+.team-achievments {
+  align-items: center;
+  padding-left: 3rem;
+}
+
+.achievement-title {
+  padding: 0;
+  color: #01FFF4;
+  font-weight: 700;
+  font-size: 70px;
+  text-align: center;
+  background: linear-gradient(180deg, #01FFF4 42.92%, rgba(1, 255, 244, 0) 99.99%, rgba(1, 255, 244, 0) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.match-count {
+  margin-top: 10rem;
+  width: 100%;
+  position: relative;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+}
+
+.match-count-container {
+  margin: auto;
+  display: flex;
+  color: white;
+  column-gap: 3rem;
+}
+
+.match-count-container div {
+  margin: auto;
+  width: 300px;
+  justify-content: center;
+}
+
+.match-count h1 {
+  font-size: 76px;
+  margin: auto;
+}
+
+.match-count-container span {
+  text-align: center;
+  color: rgb(1, 255, 244, 0.8);
+}
+
+.match-count-container h3 {
+  margin: auto;
+  text-align: center;
+  font-size: 46px;
+  height: 100px;
+}
+
+.match-count-container span {
+  display: flex;
+  justify-content: center;
+  height: 5px;
+  color: rgb(1, 255, 244, 0.8);
+}
+
+.match-count img {
+  margin: auto;
+  padding: 5rem;
+  width: 75%;
+}
+
+/* CSS 4 SHOP */
+.hero-shop {
+  top: 0;
+  height: 1800px;
+  background-image: url(img/t-shirt\ vagos.png);
+  background-size: cover;
+}
+
+.button-to-shop {
+  position: absolute;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 60px;
+  line-height: 73px;
+  color: #ffffff;
+
+  top: 1400px;
+  left: 300px;
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 445px;
+  height: 148px;
+  left: 69px;
+
+  background: rgba(9, 57, 111, 0.7);
+  border: 3px solid #ffffff;
+}
+
+.hero-shop h1 {
+  position: absolute;
+  width: 691px;
+  height: 47px;
+  left: 72px;
+  top: 1280px;
+  font-weight: 900;
+  font-size: 56px;
+  color: #002b5b;
+}
+
+.navbar-shop .img {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  left: 897px;
+  top: 96px;
+}
+
+.navbar-shop {
+  width: 100%;
+  position: absolute;
+  display: flex;
+  top: 0;
+  justify-content: right;
+  align-items: center;
+}
+
+.navbar-shop img {
+  margin: 1rem;
+  width: 195px;
+  height: 193px;
+  left: calc(50% - 195px / 2);
+}
+
+.nav-shop-a {
+  display: flex;
+  align-items: center;
+  font-weight: 900;
+  font-size: 28px;
+  line-height: 37px;
+  color: #ffffff;
+}
+
+.nav-shop-a a {
+  text-decoration: none;
+  color: #ffffff;
+  margin: 2rem;
+}
+
+.nav-shop-a img {
+  width: 60px;
+  height: 60px;
+  left: 897px;
+}
+
+.main-shop {
+  margin-top: 5rem;
+  position: relative;
+}
+
+.all {
+  align-items: center;
+  margin-bottom: 5rem;
+}
+
+.all h1 {
+  font-weight: 700;
+  font-size: 68px;
+  line-height: 85px;
+  color: #ffffff;
+}
+
+.all div {
+  align-items: center;
+  text-align: center;
+  display: flex;
+}
+
+.all img {
+  margin: 0 auto;
+  height: 40%;
+  width: 40%;
+}
+
+.shop-card {
+  position: relative;
+  padding: 0 5rem;
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  text-align: center;
+}
+
+.card {
+  position: relative;
+  margin: 0 auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  text-align: center;
+  background-color: #ffffff;
+  margin-bottom: 5rem;
+  padding-bottom: 3rem;
+  width: 500px;
+  height: 620px;
+}
+
+.card img {
+  position: static;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  width: 470px;
+  height: 500px;
+}
+
+.card-detil {
+  position: relative;
+  margin: 0 auto;
+  width: 500px;
+  text-align: left;
+  top: 0;
+  padding-left: 1rem;
+}
+
+.card-detil h4 {
+  font-size: 30px;
+  font-weight: 700;
+  color: #1e1e1e;
+}
+
+.card-detil p {
+  font-weight: 400;
+  font-size: 30px;
+  color: #002b5b;
+}
+
+.main-shop aside {
+  width: 100%;
+  text-align: center;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.view-more-shop {
+  position: relative;
+  width: 250px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 15px;
+  border: 5px solid var(--primary);
+  background-color: #151C24;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.more-shop {
+  background-image: url(img/BG-MORESHOP.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  width: 100%;
+  height: 1343px;
+}
+
+.more-shop-detil {
+  margin: 0 auto;
+  position: relative;
+}
+
+.more-shop-detil div {
+  left: 30px;
+  bottom: 110px;
+  position: absolute;
+  text-align: left;
+}
+
+.more-shop-detil button {
+  backdrop-filter: blur(2px);
+  box-sizing: border-box;
+  width: 260px;
+  height: 80px;
+  left: 54.46px;
+  top: 4853.65px;
+  background: rgba(9, 57, 111, 0.7);
+  border: 3px solid #ffffff;
+  font-size: 30px;
+  line-height: 56px;
+  color: #ffffff;
+}
+
+.more-shop-detil h2 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 44px;
+  color: #01fff4;
+}
+
+/* CSS 4 SHOP END*/
+
+/* CSS 4 ITEM-SHOP-PAGE */
+.shop-detils {
+  display: flex;
+  margin-top: 20rem;
+  column-gap: 3rem;
+}
+
+.shop-detils .left {
+  width: 200px;
+}
+
+.shop-detils .left img {
+  margin-left: 25px;
+
+  width: 150px;
+  height: 170px;
+}
+
+.shop-detils .right {
+  width: 736px;
+}
+
+.shop-detils .right img {
+  width: 540px;
+  height: 612px;
+  border: 5px solid white;
+  margin-bottom: 3rem;
+}
+
+.product-desc {
+  text-align: left;
+  width: 100%;
+  color: white;
+}
+
+.product-desc img {
+  width: 100%;
+}
+
+.product-desc p {
+  font-size: 25px;
+  line-height: 50px;
+}
+
+.product-desc div {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  row-gap: 4rem;
+}
+
+#size-option {
+  box-sizing: border-box;
+  background-color: rgba(217, 217, 217, 0);
+  margin: 0 auto;
+
+  width: 586px;
+  height: 98px;
+  border: 3px solid #01fff4;
+  font-weight: 800;
+  font-size: 42px;
+  line-height: 51px;
+  text-align: center;
+  color: #ffffff;
+
+  border: 1px solid #01fff4;
+}
+
+#size-option::-ms-expand {
+  display: none;
+}
+
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  padding-right: 25px;
+  background: url('custom_arrow.png') no-repeat right center;
+  /* URL gambar panah kustom */
+}
+
+#size-option option {
+  background-color: rgba(21, 28, 36, 0.47);
+}
+
+.product-desc button {
+  margin: 0 auto;
+  box-sizing: border-box;
+  width: 586px;
+  height: 98px;
+  background: #0abeb7;
+  border: 3px solid rgba(1, 255, 244, 0.5);
+  width: 423px;
+  height: 100px;
+  left: calc(50% - 323px / 2 + 391px);
+  top: 1444px;
+  font-weight: 800;
+  font-size: 42px;
+  line-height: 51px;
+  color: #ffffff;
+  border: 1px solid rgba(1, 255, 244, 0.5);
+}
+
+/* related-product */
+.rp-title {
+  margin-top: 10rem;
+  margin-bottom: 5rem;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  text-align: center;
+}
+
+.rp-title h1 {
+  margin: 0 auto;
+  font-size: 60px;
+  font-weight: 900;
+  color: #ffffff;
+}
+
+.rp-title img {
+  margin: 0 auto;
+  height: 10%;
+  width: 25%;
+}
+
+.related-product .rp-main {
+  align-items: center;
+  text-align: center;
+  display: flex;
+  width: 100%;
+  height: 688px;
+  background-color: rgba(21, 28, 36, 0.47);
+}
+
+.rp-card {
+  text-align: left;
+  margin: 0 auto;
+  width: 318px;
+  height: 437px;
+}
+
+.rp-card img {
+  width: 100%;
+
+}
+
+.rp-card h3 {
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 45px;
+
+  color: #01FFF4;
+
+
+}
+
+.rp-card p {
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 45px;
+
+  color: #FFFFFF;
+
+
+}
+
+/* .related-product end */
+
+/* CSS 4 ITEM-SHOP-PAGE END */

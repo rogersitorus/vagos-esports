@@ -1,0 +1,102 @@
+.partners-section {
+    position: relative;
+    width: 1519px;
+    height: 958px;
+    left: 0px;
+    top: 0px;
+    max-width: 100;
+    margin-bottom: 6rem;
+}
+
+.partners-section::before {
+    content: "";
+    background-image: url('./image/sponsor-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.5;
+}
+
+.partners-content {
+    box-sizing: border-box;
+    margin-top: 2rem;
+    position: relative;
+}
+
+.partners-container {
+    margin: rem;
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.partners-card {
+    padding: 0 10rem;
+    position: relative;
+    display: flex;
+    width: 100%;
+    margin-bottom: 5rem;
+}
+
+.partners-card-left {
+    position: relative;
+    width: 30%;
+}
+.partners-card-left-desc{
+    width: 100%;
+    bottom: 50px;
+    position: absolute;
+}
+.partners-card-left img {
+    opacity: 0.5;
+    width: 100%;
+    object-fit: cover;
+}
+.partners-card-left h3{
+    text-align: center;
+    position: relative;
+}
+.partners-card-left .partners-view-button {
+    position: relative;
+    padding: 5px;
+    width: 150px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border: 5px solid var(--primary);
+    background-color: #151C24;
+}
+
+.partners-view-button h2 {
+    font-size: 15px;
+    font-weight: 700;
+    color: var(--primary);
+}
+
+.partners-card-right {
+    display: flex;
+    width: 65%;
+    margin-left: 5rem;
+}
+.partners-content .partners-become{
+    position: relative;
+    background-color: #151C24;
+    border: 5px solid var(--primary);
+    margin: auto;
+    padding: 50px;
+    width: 700px;
+}
+.partners-become h1{
+    font-size: 36px;
+    font-weight: 800;
+    color: var(--primary);
+    text-align: center;
+}

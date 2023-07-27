@@ -1,0 +1,301 @@
+.about-hero-section {
+    position: relative;
+    width: 1519px;
+    height: 958px;
+    left: 0px;
+    top: 0px;
+    max-width: 100;
+    margin-bottom: 4rem;
+}
+
+.about-hero-section::before {
+    content: "";
+    background-image: url('./image/bg-about.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.5;
+}
+
+.about-main-section .about-container {
+    width: 100%;
+    padding: 5rem;
+    margin-bottom: 3rem;
+}
+
+.about-main-section .about-container p {
+    width: 100%;
+    text-align: justify;
+}
+
+.about-main-section .about-container p {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.about-main-section .about-container h2 {
+    margin-bottom: 2rem;
+    text-align: center;
+    font-size: 46px;
+    font-weight: 700;
+    color: var(--primary);
+}
+
+.about-visimisi {
+    position: relative;
+}
+
+.about-visimisi img {
+    margin: 2rem 0;
+    width: 100%;
+    height: 10px;
+    position: relative;
+}
+
+.about-misi-title,
+.about-visi-title,
+.achievement-title {
+    padding: 0;
+    color: #01FFF4;
+    font-weight: 700;
+    font-size: 70px;
+    text-align: center;
+    background: linear-gradient(180deg, #01FFF4 42.92%, rgba(1, 255, 244, 0) 99.99%, rgba(1, 255, 244, 0) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+.container-misi h2 {
+    padding: 3rem 20rem;
+    text-align: center;
+}
+
+.container-visi h2 {
+    padding: 3rem 20rem;
+    text-align: center;
+}
+
+.about-achievement {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    margin-top: 5rem;
+}
+
+.gallery {
+    margin-top: 3rem;
+    height: 550px;
+    width: 100%;
+}
+
+
+.gallery-cell {
+    width: 66%;
+    height: 100%;
+    margin-right: 100px;
+    background: #8C8;
+    object-fit: contain;
+    object-position: center;
+    text-align: center;
+    /* counter-increment: gallery-cell; */
+}
+
+.gallery-cell img {
+    width: 100%;
+    height: 100%;
+    object-position: center;
+    margin: auto;
+}
+
+/* cell number */
+.gallery-cell:before {
+    display: none;
+    text-align: center;
+    /* content: counter(gallery-cell); */
+    line-height: 200px;
+    font-size: 80px;
+    color: white;
+}
+
+.match-count {
+    margin-top: 10rem;
+    width: 100%;
+    position: relative;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+}
+
+.match-count-container {
+    margin: auto;
+    display: flex;
+    color: white;
+    column-gap: 3rem;
+}
+
+.match-count-container div {
+    margin: auto;
+    width: 300px;
+    justify-content: center;
+}
+
+.match-count h1 {
+    font-size: 76px;
+    margin: auto;
+}
+
+.match-count-container span {
+    text-align: center;
+    color: rgb(1, 255, 244, 0.8);
+}
+
+.match-count-container h3 {
+    margin: auto;
+    text-align: center;
+    font-size: 46px;
+    height: 100px;
+}
+
+.match-count-container span {
+    display: flex;
+    justify-content: center;
+    height: 5px;
+    color: rgb(1, 255, 244, 0.8);
+}
+
+.match-count img {
+    margin: auto;
+    padding: 5rem;
+    width: 75%;
+}
+
+.contact-section {
+    width: 1519px;
+    margin-top: 5rem;
+    padding: 5rem;
+    position: relative;
+}
+
+.contact-section header {
+    display: flex;
+}
+
+.contact-header-left {
+    width: 20%;
+}
+
+.contact-header-left img {
+    object-fit: cover;
+    width: 100%;
+}
+
+.contact-header-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 80%;
+}
+
+.contact-header-right h1 {
+    font-size: 64px;
+}
+
+.contact-header-right h3 {
+    font-size: 26px;
+}
+
+.contact-form {
+    gap: 10rem;
+    padding: 2rem;
+    margin: auto;
+    display: flex;
+    width: 1400px;
+    position: relative;
+}
+.contact-form-input {
+    position: relative;
+    width: 50%;
+}
+.contact-form input {
+    position: relative;
+    width: 700px;
+    margin: 1rem 0;
+    border: 1px solid var(--primary);
+    border-radius: 5px;
+    background-color: var(--bg);
+    padding: 1rem;
+}
+
+.contact-form .contact-button {
+    top: 50%;
+    left: 50%;
+    text-align: ;
+    font-size: 20px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:200px;
+    margin-right: 0;
+    right: 0;
+    height: 60px;
+    border: 1px solid var(--primary);
+    border-radius: 10px;
+    background-color: rgba(8, 99, 200, 0.4);
+    color: var(--primary)
+}
+
+.contact-form #question {
+    position: relative;
+    background-color: #151C24;
+    border: none;
+    height: 200px;
+}
+
+.contact-socmed {
+    position: relative;
+    width: 50%;
+    background: rgba(8, 99, 200, 0.4);
+    padding: 2rem;
+    height: 560px;
+    border: 2px solid #FFFFFF;
+}
+.contact-socmed h1{
+padding-bottom: 5rem;
+font-weight: 600;
+}
+.contact-socmed h3{
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: underline;
+}
+.contact-socmed .contact-garis{
+    height: 5px;
+    width: 100%;
+    top: -50px;
+    position: relative  
+}
+.contact-socmed p{
+    display: flex;
+    align-items: center ;
+}
+.contact-socmed .container-socmed {
+    width: 100%;
+}
+.contact-socmed .container-socmed img{
+    width: 50px;
+}
+.contact-socmed .container-socmed a{
+    display: flex;
+    padding: 1rem 0;
+}
+.contact-socmed .container-socmed a p{
+    padding-left: 2rem;
+}
