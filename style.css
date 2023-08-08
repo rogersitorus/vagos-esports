@@ -9,6 +9,8 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    outline: 0;
+    border: none;
     font-family: 'Montserrat', sans-serif;
     text-decoration: none;
     color: var(--text-color);
@@ -20,73 +22,84 @@ html {
 
 body {
     font-family: "Montserrat", sans-serif;
-    justify-content: center;
-    align-items: center;
     background-color: var(--bg);
     color: #fff;
     min-height: 400vh;
 }
 
 .hero-navbar {
-    top: 0;
+    width: 100%;
+    padding: 2rem 7%;
     display: flex;
     position: relative;
+    align-items: center;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.hero-navbar .hero-navbar-logo {
+
+    width: 100%;
 }
 
 .hero-navbar img {
-    position: absolute;
-    width: 120px;
+
+    width: 100%;
     height: 120px;
-    left: 37px;
-    top: 10px;
 }
 
 .hero-navbar ul {
-    position: relative;
-    left: 350px;
-    top: 64px;
+    column-gap: 3rem;
+    width: 90%;
+    justify-content: end;
     list-style: none;
     display: flex;
-    justify-content: end;
+    align-items: center;
 }
 
 .hero-navbar li {
-    margin-left: 50px;
-    font-size: 20px;
+    font-size: 1.2rem;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
 }
-.hero-navbar li:hover{
+
+.hero-navbar li:hover {
     color: var(--primary);
     transition: 0.6s;
 }
-.hero-navbar li span{
+
+.hero-navbar .hero-navbar-shop {
+    text-align: center;
+    padding: 2rem 1rem;
+    width: 25%;
     border-radius: 20px;
-    padding: 30px;
     background-color: #151C24;
     border: 5px solid var(--primary);
     /* background-color: rgba(1, 255, 244,0.5); */
     color: var(--primary);
 }
-.hero-navbar .news-start {
-    margin-left: 300px;
+.hero-navbar .hero-navbar-shop li{
+    font-size: 1rem;
 }
 
 .hero-section {
+    margin: auto;
     position: relative;
-    width: 1519px;
     height: 658px;
+    width: 100%;
     left: 0px;
     top: 0px;
-    max-width: 100%;
     margin-bottom: 14rem;
 }
 
 .hero-section::before {
     content: "";
+    width: 100%;
     background-image: url('image/heropicnew2.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     position: absolute;
     top: 0px;
     right: 0px;
@@ -96,15 +109,15 @@ body {
 }
 
 .hero-content {
-    top: 221px;
-    left: 134px;
-    position: absolute;
+    padding: 2rem 8%;
+    position: relative;
+    width: 100%;
 }
 
 .hero-content h1 {
     font-weight: 800;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 56px;
+    font-size: 3.5rem;
     color: var(--text-color);
 }
 
@@ -112,32 +125,33 @@ body {
     font-weight: 900;
     font-style: italic;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 56px;
+    font-size: 3.5rem;
     color: var(--primary);
 }
 
 .hero-content h2 {
     font-weight: 500;
-    font-size: 30px;
+    font-size: 1.9rem;
 }
 
-.hero-section .ourteam {
-    left: 558px;
-    top: 508px;
-    position: absolute;
+.hero-content a {
+    margin: auto;
 }
 
 .about-section {
-    height: 475px;
+    width: 100%;
+    height: 100%;
     position: relative;
 }
 
 .about-section::before {
     content: "";
+    width: 100%;
     background-image: url('image/logo.png');
     background-repeat: no-repeat;
     background-position: center;
     position: absolute;
+    margin: auto;
     top: -100px;
     right: 0px;
     bottom: 0px;
@@ -146,25 +160,23 @@ body {
 }
 
 .about-content {
-    top: 868px;
-    left: 129px;
-    width: 1258px;
-    height: 362px;
+    padding: 2rem 10%;
+    width: 100%;
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .about-left {
+    width: 50%;
     display: flex;
     align-items: center;
-    justify-content: center;
-    width: 50%;
-    margin-left: 12rem;
+    justify-content: end;
 }
 
 .about-rotate {
-    width: 100px;
+    width: 20%;
     height: 362px;
     display: flex;
     align-items: center;
@@ -175,7 +187,7 @@ body {
 }
 
 .about-rotate h1 {
-    font-size: 56px;
+    font-size: 3.5rem;
     font-weight: 700;
     color: var(--text-color);
 }
@@ -184,12 +196,12 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 300px;
+    width: 50%;
     height: 362px;
 }
 
 .about-best h1 {
-    font-size: 50px;
+    font-size: 3.2rem;
     font-weight: 700;
     color: var(--primary);
 }
@@ -198,18 +210,22 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 50%;
+    width: 70%;
     height: 50%;
 }
 
 .about-right p {
-    font-size: 20px;
+    font-size: 1.2rem;
     padding: 50px;
 }
 
-.division-section {}
+.division-section {
+    width: 100%;
+    position: relative;
+}
 
 .division-container {
+    width: 100%;
     height: 100%;
     margin: auto;
 }
@@ -218,7 +234,7 @@ body {
     margin-top: 4rem;
     color: #01FFF4;
     font-weight: 900;
-    font-size: 70px;
+    font-size: 4.3rem;
     text-align: center;
 }
 
@@ -226,19 +242,21 @@ body {
 .news-title,
 .highlight-title,
 .shop-title,
-.partners-title{
+.partners-title {
     margin: 2rem 0;
-    font-size: 44px;
+    font-size: 2.7rem;
     font-weight: bold;
     color: var(--text-color);
     text-align: center;
 }
 
 .division-teams {
+    width: 100%;
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100%;
+    column-gap: 1rem;
     flex-wrap: wrap;
 }
 
@@ -250,16 +268,21 @@ body {
     justify-content: center;
     align-items: center;
 }
+.division-teams .teams img{
+    width: 100%;
+}
 
 .news-section {
     box-sizing: border-box;
     margin-top: 15rem;
     position: relative;
-    height: 115vh;
+    height: 100%;
+    width: 100%;
 }
 
 .news-section::before {
     content: "";
+    width: 100%;
     background-image: url(./image/bg-news.png);
     background-repeat: no-repeat;
     background-position: center;
@@ -273,18 +296,19 @@ body {
 }
 
 .news-container {
+    width: 100%;
+    height: 100%;
     box-sizing: border-box;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    padding: 0 3rem;
-    row-gap: 1rem;
+    padding: 2rem 10%;
+    row-gap: 5rem;
     position: relative;
 }
 
 .news-container .news-card {
     position: relative;
-    height: 300px;
     width: 30%;
     margin-right: 0.5rem;
     margin-bottom: 2rem;
@@ -292,7 +316,6 @@ body {
 
 .news-container .news-card img {
     width: 100%;
-    height: 100%;
     object-fit: cover;
     position: absolute;
 }
@@ -317,7 +340,7 @@ body {
 }
 
 .news-game h2 {
-    font-size: 12px;
+    font-size: 0.7rem;
     font-weight: 600;
 }
 
@@ -330,7 +353,7 @@ body {
 }
 
 .news-date h2 {
-    font-size: 14px;
+    font-size: 0.8;
     font-weight: 700;
 }
 
@@ -343,15 +366,16 @@ body {
 }
 
 .news-card-title h3 {
-    font-size: 18px;
+    font-size: 1.1rem;
     font-weight: 800;
-    -webkit-text-stroke: 1px var(--bg);
+    -webkit-text-stroke: 0.5px var(--bg);
 }
 
 .news-section .view-button,
 .highlight-section .view-button,
 .shop-section .view-button,
-.news-hiring .view-button{
+.news-hiring .view-button {
+    font-size: 1rem;
     position: relative;
     width: 200px;
     margin: auto;
@@ -364,70 +388,68 @@ body {
 }
 
 .news-section .news-button h2 {
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: bold;
     text-align: center;
 }
 
 .highlight-section {
     margin-top: 5rem;
-
+    width: 100%;
+    position: relative;
 }
 
 .highlight-container {
+    width: 100%;
+    height: 100%;
     position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 0 3rem;
+    padding: 2rem 10%;
 }
 
-.highlight-container .highlight-card {
+.highlight-section .highlight-container .highlight-card {
     position: relative;
-    height: 300px;
+    height: 100%;
     width: 30%;
-    margin-right: 0.5rem;
+    margin-right: 2rem;
     margin-bottom: 3rem;
     background-color: #01FFF4;
-}
-
-.highlight-section .highlight-button {
-    position: relative;
-    padding: 100px;
-    width: 200px;
-    margin: auto;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    padding: 15px;
-    border: 5px solid var(--primary);
-    background-color: #151C24;
 }
 
 .highlight-container .highlight-card img {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    object-position: center;
+    image-rendering: optimizeSpeed;
     position: relative;
 }
 
 .highlight-container .highlight-card-desc {
+    width: 100%;
     display: flex;
 }
 
-.highlight-container .highlight-card-desc {
-    display: flex;
+.highlight-container .highlight-card-desc .highlight-card-desc-end {
+    right: 0;
+    position: absolute;
 }
 
 .shop-section {
     box-sizing: border-box;
     margin-top: 15rem;
     position: relative;
-    height: 100vh;
+    height: 100%;
+    width: 100%;
+    margin-bottom: 5rem;
 }
 
 .shop-section::before {
+    height: 100%;
     content: "";
+    width: 100%;
     background-image: url(./image/bg-shop.png);
     background-repeat: no-repeat;
     background-position: center;
@@ -439,52 +461,61 @@ body {
     bottom: 0;
     opacity: 0.5;
 }
+
 .shop-section .shop-title-container,
 .news-section .news-title-container,
 .highlight-section .highlight-title-container,
-.partners-content .partners-title-container{
+.partners-content .partners-title-container {
     display: flex;
     margin: auto;
     justify-content: center;
+    position: relative;
+    width: 100%;
 }
+
 .shop-section .shop-title-container img,
 .news-section .news-title-container img,
 .highlight-section .highlight-title-container img,
-.partners-content .partners-title-container img{
+.partners-content .partners-title-container img {
     margin: auto;
-    width: 500px;
+    width: 25%;
     height: 10px;
+    position: relative;
 }
+
 .shop-container {
+
+    width: 100%;
     box-sizing: border-box;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    padding: 0 3rem;
-    row-gap: 1rem;
+    padding: 0 7%;
+    column-gap: 2rem;
     position: relative;
+    margin-bottom: 5rem;
 }
 
 .shop-container .shop-card {
     position: relative;
     height: 437px;
-    width: 22.5%;
-    margin: 2rem 1rem 1.5rem;
+    width: 30%;
+    padding: 2rem 0
 }
 
 .shop-container .shop-card img {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    position: absolute;
+    position: relative;
 }
 
 .footer {
     position: relative;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    margin-top: 10rem;
     width: 100%;
     height: 411px;
     left: 0;
@@ -493,39 +524,37 @@ body {
 }
 
 .footer .footer-logo {
-    width: 279px;
+    width: 20%;
     height: 265px;
     margin-top: 3rem;
     margin: auto;
 }
 
-.footer h1 {
+.footer .footer-info h1 {
     top: 70px;
-    font-family: "Montserrat";
+    width: 75%;
     font-style: normal;
     font-weight: 900;
-    font-size: 58px;
-    line-height: 71px;
+    font-size: 3.5rem;
     color: #ffffff;
-    margin: auto;
 }
 
 .footer-info {
+    width: 60%;
     margin: auto;
     align-items: center;
     top: 0;
     display: flex;
+
 }
 
-.footer li {
-    margin: auto;
+.footer .footer-info li {
     list-style: none;
     font-family: "Montserrat";
     font-style: normal;
     font-weight: 700;
-    font-size: 20px;
+    font-size: 1.2rem;
     line-height: 57px;
-    margin-left: 6rem;
     color: #ffffff;
 }
 
@@ -535,33 +564,64 @@ body {
 
 .footer-sosmed {
     margin: auto;
-    margin-left: 10rem;
-    width: 300px;
+    width: 20%;
     height: 100px;
-    line-height: 34px;
 }
 
 .footer-sosmed img {
-    width: 70px;
+    width: 25%;
     height: 70px;
     line-height: 37px;
 }
 
-.footer-sosmed h2 {
-    position: absolute;
-    font-size: 25px;
+.footer-sosmed a {
+    font-size: 0.5rem;
     font-weight: 800;
-    margin: auto;
     text-decoration: underline;
     color: #ffffff;
-    text-align: center;
 }
-.footer-copyright{
+
+
+.footer-copyright {
+    width: 100%;
+    display: flex;
+    justify-content: end;
     position: absolute;
-    right: 4rem;
+    right: 2.5rem;
     bottom: 0;
 }
-.footer-copyright h2{
-    font-size: 20px;
+
+.footer-copyright h2 {
+    font-size: 1.2rem;
     font-weight: 400;
+}
+
+
+/* Large screens */
+@media (max-width: 1200px) {
+    * {
+        font-size: 80%;
+    }
+
+    /* Add more specific styles for large screens here */
+}
+
+
+/* Small screens */
+@media (max-width: 768px) {
+    * {
+        font-size: 65%;
+        
+    }
+
+    /* Add more specific styles for small screens here */
+}
+
+/* Extra small screens */
+@media (max-width: 576px) {
+    * {
+        font-size: 62.5%;
+    }
+
+    /* Add more specific styles for extra small screens here */
 }
