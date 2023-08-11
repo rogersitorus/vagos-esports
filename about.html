@@ -22,24 +22,38 @@
     <section class="about-hero-section">
         <!-- NAVBAR SECTION -->
         <div class="hero-navbar">
-            <a href="index.html" class="hero-navbar-img"><img src="image/logo.png" alt=""></a>
-            <ul class="ul-navbar">
-                <a href="news.html">
-                    <li class="news-start">News</li>
-                </a>
-                <a href="teampage1.html">
-                    <li>Teams</li>
-                </a>
-                <a href="partners1.html">
-                    <li>Partners</li>
-                </a>
-                <a href="about.html">
-                    <li>About</li>
-                </a>
-                <a href="SHOP.html" class="hero-navbar-shop">
-                    <li><span>VAGOS OFFICIAL SHOP</span></li>
-                </a>
-            </ul>
+            <div class="hero-navbar-logo">
+                <a href="index.html" class="hero-navbar-logo-img"><img src="image/logo.png" alt=""></a>
+            </div>
+            <div class="hero-navbar-nav">
+                <ul class="ul-navbar">
+                    <a href="news.html">
+                        <li class="news-start">News</li>
+                    </a>
+                    <a href="teampage1.html">
+                        <li>Teams</li>
+                    </a>
+                    <a href="partners1.html">
+                        <li>Partners</li>
+                    </a>
+                    <a href="about.html">
+                        <li>About</li>
+                    </a>
+
+                </ul>
+            </div>
+
+            <div class="hero-navbar-feature">
+                <div class="hero-navbar-shop">
+                    <a href="SHOP.html">
+                        <li>VAGOS OFFICIAL SHOP</li>
+                    </a>
+                </div>
+                <div class="hero-navbar-menu">
+                    <img src="./image/menu.png" alt="">
+                </div>
+            </div>
+
         </div>
         <!-- NAVBAR SECTION SELESAI -->
     </section>
@@ -49,20 +63,12 @@
     <section class="about-main-section">
         <div class="about-container">
             <h2>About US</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et nihil nulla asperiores architecto fugiat
-                eligendi suscipit accusantium porro facilis id optio omnis labore nisi qui voluptatibus, dolores iste
-                vel ducimus.<br>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur eveniet ratione, tempora eaque et eum
-                minus optio, natus nobis deleniti ad rem assumenda earum aliquam hic temporibus iusto nam illo?
-                <br>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Inventore quam ipsa dolorum voluptatibus
-                aliquam, reprehenderit reiciendis quis sapiente eveniet architecto incidunt nam cupiditate, accusantium
-                laboriosam perspiciatis rem dicta veniam nesciunt.
-                <br>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Inventore quam ipsa dolorum voluptatibus
-                aliquam, reprehenderit reiciendis quis sapiente eveniet architecto incidunt nam cupiditate, accusantium
-                laboriosam perspiciatis rem dicta veniam nesciunt.
-                <br>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Inventore quam ipsa dolorum voluptatibus
-                aliquam, reprehenderit reiciendis quis sapiente eveniet architecto incidunt nam cupiditate, accusantium
-                laboriosam perspiciatis rem dicta veniam nesciunt.
+            <p>United by an unbreakable bond, we are more than a team; we are a collective of like-minded individuals
+                who eat, sleep, and breathe esports. Our journey is one of growth, resilience, and the unwavering
+                pursuit of excellence. Every victory is a testament to our dedication; every challenge, a stepping stone
+                toward mastery.
+                <br><br><br>
+                <span>This is Team Vagos Esport - authentically Bali, undeniably formidable.</span>
             </p>
         </div>
         <div class="about-visimisi">
@@ -73,6 +79,7 @@
                     numquam quod id itaque rerum laboriosam laudantium voluptatem voluptas a quae explicabo vel.
                     Accusantium, ipsum reprehenderit?</h2>
             </div>
+
             <div class="container-misi">
                 <h1 class="about-misi-title">MISI</h1>
                 <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi distinctio fugiat, quas
@@ -107,23 +114,26 @@
     </section>
 
     <div class="match-count">
-        <h1><b><span>10</span> champions</b></h1>
+        <h1><span>10</span> champions</h1>
         <img src="image/about-garis.png" alt="">
         <div class="match-count-container">
             <div>
-                <h3><span>230+</span> <br> MATCH</h3>
+                <h3><span>230+</span></h3>
+                <h3>MATCH</h3>
             </div>
             <div>
-                <h3><span>70+</span> <br> 2nd/3rd</h3>
+                <h3><span>70+</span> 
+                <h3>2nd/3rd</h3>
             </div>
             <div>
-                <h3><span>150+</span> <br> UNKNOWN</h3>
+                <h3><span>150+</span> 
+                <h3>UNKNOWN</h3>
             </div>
         </div>
                 
     </div>
 
-    <section class="contact-section">
+    <section class="contact-section" id="contact">
         <header>
             <div class="contact-header-left">
                 <img src="image/logo.png" alt="">
@@ -175,7 +185,7 @@
     </section>
     <!-- FOOTER SECTION -->
     <section class="footer">
-        <img src="image/logo.png" alt="" class="footer-logo" />
+        <a href="index.html" class="footer-logo"><img src="image/logo.png" alt="" class="footer-logo-img" /></a>
         <div class="footer-info">
             <h1>TEAM <span>VAGOS</span></h1>
             <ul>
@@ -197,12 +207,15 @@
             <img src="image/youtube.png" alt="" />
             <img src="image/tiktok.png" alt="" />
             <img src="image/instagram.png" alt="" /><br />
-            <h2>DOWNLOAD APP</h2>
+            <a target="_blank" href="https://play.google.com/store/apps/details?id=com.studiokami.vagos">
+                <h2>DOWNLOAD APP</h2>
+            </a>
         </div>
         <div class="footer-copyright">
             <h2>Copyright TEAM VAGOS ID 2023</h2>
         </div>
     </section>
     <!-- FOOTER SECTION SELESAI -->
+    <script src="./script.js"></script>
     <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
 </body>
