@@ -1,8 +1,5 @@
-function myFunction() {
-    var x = document.getElementById("hide");
-    if (x.style.display === "none") {
-        x.style.display = "block";
-    } else {
-        x.style.display = "none";
-    }
-}
+const navbarNav = document.querySelector('.hero-navbar .hero-navbar-nav')
+
+document.querySelector('.hero-navbar-menu').onclick = () => {
+    navbarNav.classList.toggle('active')
+}   
