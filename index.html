@@ -19,24 +19,38 @@
     <section class="hero-section">
         <!-- NAVBAR SECTION -->
         <div class="hero-navbar">
-            <a href="index.html" class="hero-navbar-img"><img src="image/logo.png" alt=""></a>
-            <ul class="ul-navbar">
-                <a href="news.html">
-                    <li class="news-start">News</li>
-                </a>
-                <a href="teampage1.html">
-                    <li>Teams</li>
-                </a>
-                <a href="partners1.html">
-                    <li>Partners</li>
-                </a>
-                <a href="about.html">
-                    <li>About</li>
-                </a>
-                <a href="SHOP.html" class="hero-navbar-shop">
-                    <li>VAGOS OFFICIAL SHOP</li>
-                </a>
-            </ul>
+            <div class="hero-navbar-logo">
+                <a href="index.html" class="hero-navbar-logo-img"><img src="image/logo.png" alt=""></a>
+            </div>
+            <div class="hero-navbar-nav">
+                <ul class="ul-navbar">
+                    <a href="news.html">
+                        <li class="news-start">News</li>
+                    </a>
+                    <a href="teampage1.html">
+                        <li>Teams</li>
+                    </a>
+                    <a href="partners1.html">
+                        <li>Partners</li>
+                    </a>
+                    <a href="about.html">
+                        <li>About</li>
+                    </a>
+                    
+                </ul>
+            </div>
+            
+            <div class="hero-navbar-feature">
+                <div class="hero-navbar-shop">
+                    <a href="SHOP.html" >
+                        <li>VAGOS OFFICIAL SHOP</li>
+                    </a>
+                </div>
+                <div class="hero-navbar-menu">
+                    <img src="./image/menu.png" alt="">
+                </div>
+            </div>
+            
         </div>
         <!-- NAVBAR SECTION SELESAI -->
 
@@ -44,9 +58,9 @@
         <div class="hero-content">
             <h1>WELCOME TO<br><span>THE BEST E-SPORTS TEAM IN BALI</span></h1>
             <h2>Rise to Victory: Knights of the Digital Arena!</h2>
-            <!-- <a href="teampage1.html">
-                <img src="image/ourteamnew.png" alt="" >
-            </a> -->
+            <a href="teampage1.html">
+                <img src="image/ourteamnew.png" alt="">
+            </a>
         </div>
         <!-- HERO CONTENT SELESAI -->
     </section>
@@ -64,13 +78,18 @@
                 </div>
             </div>
             <div class="about-right">
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. At asperiores possimus quibusdam excepturi
-                    aperiam, rerum ipsum similique iste facere sapiente voluptates vero facilis aliquid inventore
-                    debitis
-                    eaque, suscipit dicta? Consequuntur. <br><br>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Beatae
-                    nisi dolorem accusantium maxime. Ab ratione saepe quam consequuntur vel, doloribus, repudiandae
-                    numquam debitis temporibus ut distinctio nobis, architecto laborum dolor!</p>
+                <p>Founded on a shared passion for gaming in , Team Vagos is a formidable presence in the esports
+                    world. With a commitment to excellence and a motto of "United in Diversity, Driven by Victory," we
+                    thrive in various gaming genres.
+                    <br><br>
+                    Our achievements reflect our dedication, and our inclusive community
+                    approach sets us apart. With a talented roster and dedicated support staff, we're poised to leave an
+                    indelible mark on esports.
+                    <br><br>
+                    Join us on our journey towards continued success and innovation in the
+                    competitive gaming landscape.
+                    <br><br>
+                </p>
 
             </div>
         </div>
@@ -80,8 +99,54 @@
     <!-- DIVISION SECTION -->
     <section class="division-section">
         <div class="division-container">
+
             <h1 class="division-title">TEAM VAGOS</h1>
             <h2 class="division-subtitle">DIVISIONS</h2>
+            <section class="carousel" aria-label="Gallery">
+                <ol class="carousel__viewport">
+                    <li id="carousel__slide1" tabindex="0" class="carousel__slide">
+                        <img src="./image/pubg team.png" alt="">
+                        <div class="carousel__snapper">
+                            <a href="#carousel__slide4" class="carousel__prev">Go to last slide</a>
+                            <a href="#carousel__slide2" class="carousel__next">Go to next slide</a>
+                        </div>
+                    </li>
+                    <li id="carousel__slide2" tabindex="0" class="carousel__slide">
+                        <img src="./image/ff team.png" alt="">
+                        <div class="carousel__snapper"></div>
+                        <a href="#carousel__slide1" class="carousel__prev">Go to previous slide</a>
+                        <a href="#carousel__slide3" class="carousel__next">Go to next slide</a>
+                    </li>
+                    <li id="carousel__slide3" tabindex="0" class="carousel__slide">
+                        <img src="./image/ml team.png" alt="">
+                        <div class="carousel__snapper"></div>
+                        <a href="#carousel__slide2" class="carousel__prev">Go to previous slide</a>
+                        <a href="#carousel__slide4" class="carousel__next">Go to next slide</a>
+                    </li>
+                    <li id="carousel__slide4" tabindex="0" class="carousel__slide">
+                        <img src="./image/ff team.png" alt="">
+                        <div class="carousel__snapper"></div>
+                        <a href="#carousel__slide3" class="carousel__prev">Go to previous slide</a>
+                        <a href="#carousel__slide1" class="carousel__next">Go to first slide</a>
+                    </li>
+                </ol>
+                <aside class="carousel__navigation">
+                    <ol class="carousel__navigation-list">
+                        <li class="carousel__navigation-item">
+                            <a href="#carousel__slide1" class="carousel__navigation-button">Go to slide 1</a>
+                        </li>
+                        <li class="carousel__navigation-item">
+                            <a href="#carousel__slide2" class="carousel__navigation-button">Go to slide 2</a>
+                        </li>
+                        <li class="carousel__navigation-item">
+                            <a href="#carousel__slide3" class="carousel__navigation-button">Go to slide 3</a>
+                        </li>
+                        <li class="carousel__navigation-item">
+                            <a href="#carousel__slide4" class="carousel__navigation-button">Go to slide 4</a>
+                        </li>
+                    </ol>
+                </aside>
+            </section>
             <div class="division-teams">
                 <div class="teams">
                     <img src="image/ff team.png" alt="">
@@ -119,10 +184,10 @@
                 <img src="image/news1.jpeg" alt="">
                 <div class="news-header">
                     <div class="news-game">
-                        <h2>MOBILE LEGENDS</h2>
+                        <p>MOBILE LEGENDS</p>
                     </div>
                     <div class="news-date">
-                        <h2>06 Juli 2023</h2>
+                        <p>06 Juli 2023</p>
                     </div>
                 </div>
                 <div class="news-card-title">
@@ -134,10 +199,10 @@
                 <img src="image/news1.jpeg" alt="">
                 <div class="news-header">
                     <div class="news-game">
-                        <h2>MOBILE LEGENDS</h2>
+                        <p>MOBILE LEGENDS</p>
                     </div>
                     <div class="news-date">
-                        <h2>06 Juli 2023</h2>
+                        <p>06 Juli 2023</p>
                     </div>
                 </div>
                 <div class="news-card-title">
@@ -149,14 +214,14 @@
                 <img src="image/news1.jpeg" alt="">
                 <div class="news-header">
                     <div class="news-game">
-                        <h2>PUBG MOBILE</h2>
+                        <p>PUBG MOBILE</p>
                     </div>
                     <div class="news-date">
-                        <h2>12 Juli 2023</h2>
+                        <p>12 Juli 2023</p>
                     </div>
                 </div>
                 <div class="news-card-title">
-
+                    <h3>Klasemen sementara week 8 MPL S7</h3>
                 </div>
             </div>
 
@@ -164,14 +229,14 @@
                 <img src="image/news1.jpeg" alt="">
                 <div class="news-header">
                     <div class="news-game">
-                        <h2>MOBILE LEGENDS</h2>
+                        <p>MOBILE LEGENDS</p>
                     </div>
                     <div class="news-date">
-                        <h2>29 Juni 2023</h2>
+                        <p>29 Juni 2023</p>
                     </div>
                 </div>
                 <div class="news-card-title">
-
+                    <h3>Klasemen sementara week 8 MPL S7</h3>
                 </div>
             </div>
 
@@ -179,14 +244,14 @@
                 <img src="image/news1.jpeg" alt="">
                 <div class="news-header">
                     <div class="news-game">
-                        <h2>FREE FIRE</h2>
+                        <p>FREE FIRE</p>
                     </div>
                     <div class="news-date">
-                        <h2>12 Juli 2023</h2>
+                        <p>12 Juli 2023</p>
                     </div>
                 </div>
                 <div class="news-card-title">
-
+                    <h3>Klasemen sementara week 8 MPL S7</h3>
                 </div>
             </div>
 
@@ -194,13 +259,14 @@
                 <img src="image/news1.jpeg" alt="">
                 <div class="news-header">
                     <div class="news-game">
-                        <h2>LAINNYA</h2>
+                        <p>LAINNYA</p>
                     </div>
                     <div class="news-date">
-                        <h2>01 Juli 2023</h2>
+                        <p>01 Juli 2023</p>
                     </div>
                 </div>
                 <div class="news-card-title">
+                    <h3>Klasemen sementara week 8 MPL S7</h3>
                 </div>
             </div>
 
@@ -226,24 +292,36 @@
             <div class="highlight-card">
                 <img src="image/video1.jpg" alt="">
                 <div class="highlight-card-desc">
-                    <div><p class="desc-views">1k Views&nbsp;</p></div>
-                    <div class="highlight-card-desc-end"><p class="desc-recent">5 hour ago</p></div>
-                    
+                    <div>
+                        <p class="desc-views">1k Views&nbsp;</p>
+                    </div>
+                    <div class="highlight-card-desc-end">
+                        <p class="desc-recent">5 hour ago</p>
+                    </div>
+
                 </div>
 
             </div>
             <div class="highlight-card">
                 <img src="image/video2.jpg" alt="">
                 <div class="highlight-card-desc">
-                    <div><p class="desc-views">1k Views&nbsp;</p></div>
-                    <div class="highlight-card-desc-end"><p class="desc-recent">5 hour ago</p></div>
+                    <div>
+                        <p class="desc-views">1k Views&nbsp;</p>
+                    </div>
+                    <div class="highlight-card-desc-end">
+                        <p class="desc-recent">5 hour ago</p>
+                    </div>
                 </div>
             </div>
             <div class="highlight-card">
                 <img src="image/video3.jpg" alt="">
                 <div class="highlight-card-desc">
-                    <div><p class="desc-views">1k Views&nbsp;</p></div>
-                    <div class="highlight-card-desc-end"><p class="desc-recent">5 hour ago</p></div>
+                    <div>
+                        <p class="desc-views">1k Views&nbsp;</p>
+                    </div>
+                    <div class="highlight-card-desc-end">
+                        <p class="desc-recent">5 hour ago</p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -283,8 +361,9 @@
 
                 </div>
             </div>
+
             <div class="shop-card">
-                <img src="image/produk/kunci.jpg" alt="">
+                <img src="image/produk/kunci.jpeg" alt="">
                 <div class="shop-card-desc">
 
                 </div>
@@ -300,7 +379,9 @@
 
     <!-- FOOTER SECTION -->
     <section class="footer">
-        <img src="image/logo.png" alt="" class="footer-logo" />
+        <div class="footer-logo">
+            <a href="index.html" ><img src="image/logo.png" alt=""  class="footer-logo-img"/></a>
+        </div>
         <div class="footer-info">
             <h1>TEAM <span>VAGOS</span></h1>
             <ul>
@@ -319,10 +400,12 @@
             </ul>
         </div>
         <div class="footer-sosmed">
-            <img src="image/youtube.png" alt="" />
-            <img src="image/tiktok.png" alt="" />
-            <img src="image/instagram.png" alt="" /><br />
-            <a target="_blank" href="https://play.google.com/store/apps/details?id=com.studiokami.vagos"><h2>DOWNLOAD APP</h2></a>
+            <a href="https://www.youtube.com/@teamvagosesports772"><img src="image/youtube.png" alt="" /></a>
+            <a href="https://www.tiktok.com/@teamvagos.id"><img src="image/tiktok.png" alt="" /></a>
+            <a href="https://www.instagram.com/teamvagos.id/"><img src="image/instagram.png" alt="" /><br /></a>
+            <a target="_blank" href="https://play.google.com/store/apps/details?id=com.studiokami.vagos">
+                <h2>DOWNLOAD APP</h2>
+            </a>
         </div>
         <div class="footer-copyright">
             <h2>Copyright TEAM VAGOS ID 2023</h2>
