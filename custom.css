@@ -434,6 +434,13 @@ width: 100vw;
 
   color: #002b5b;
 }
+.card a {
+  width: 95%;
+  height: 95%;
+  position: absolute;
+  background-color:transparent;
+  z-index: 5;
+}
 .main-shop aside {
   width: 100%;
   text-align: center;
