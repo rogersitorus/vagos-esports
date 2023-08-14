@@ -54,78 +54,6 @@ hr {
   color: rgba(1, 255, 244, 0.8);
 }
 
-.footer {
-  margin-top: 20vmin;
-  display: flex;
-  column-gap: 10%;
-  width: 100vw;
-  height: 20%;
-  left: 0;
-  bottom: 0;
-  background-color: rgba(37, 37, 37, 1);
-}
-.footer img {
-  width: 30%;
-  height: 30%;
-  margin-top: 0;
-  margin: 0 auto;
-}
-.footer h1 {
-  font-family: "Montserrat";
-  font-style: normal;
-  font-size: 5vmax;
-  line-height: 2rem;
-  margin: 0;
-
-  color: #ffffff;
-}
-.footer-info {
-  width: 70%;
-  align-items: center;
-  margin: 0 auto;
-  left: 0;
-  top: 0;
-  display: flex;
-}
-.footer li {
-  list-style: none;
-  text-align: left;
-  font-family: "Montserrat";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 2vmax;
-  line-height: 2.5rem;
-
-  color: #ffffff;
-}
-.footer span {
-  color: aqua;
-}
-.footer-sosmed {
-  margin: 0 auto;
-  gap: 2vh;
-  align-items: center;
-  width: 30%;
-  height: 10%;
-  font-size: 3vmin;
-  line-height: 34px;
-}
-.footer-sosmed-img {
-  align-items: center;
-  display: flex;
-}
-.footer-sosmed img {
-  top: 0;
-  width: 3vmax;
-  margin: 0 auto;
-  line-height: 37px;
-}
-.footer-sosmed h2 {
-  width: 40%;
-  color: #ffffff;
-  text-align: center;
-}
-
 .hero-teamict {
   position: relative;
   align-items: center;
@@ -1198,17 +1126,6 @@ scroll-snap-type: mandatory;
   .more-shop-none {
     display: block;
   }
-  .footer {
-    flex-direction: column;
-    text-align: center;
-  }
-  .footer img {
-    width: 40%;
-  }
-  .footer-sosmed {
-    display: flex;
-  }
-
   .shop-detils .left {
     display: none;
   }
