@@ -253,23 +253,32 @@ width: 100vw;
 }
 
 .navbar-shop {
-  gap: 5%;
-  width: 100%;
+  gap: 10%;
+  width: 60%;
   height: auto;
   position: absolute;
   display: flex;
   top: 4vmin;
+  right: 0;
   justify-content: end;
-  text-align: center;
   align-items: center;
 }
+.logo-vagos {
+  width: 60%;
+  justify-self: left;
+  display: flex;
+  width: fit-content;
+  position: relative;
+  margin: auto;
+}
 .navbar-shop .logo-vagos img {
-  width: 14vmax;
-  height: 14vmax;
-  margin: 0;
+  left: 0;
+  width: 15vmax;
+  margin: auto;
 }
 .nav-shop-a {
   margin: 0;
+
   display: flex;
   align-items: center;
   font-weight: 900;
@@ -277,16 +286,28 @@ width: 100vw;
   line-height: 37px;
   color: #ffffff;
 }
-.nav-shop-a a {
-  text-decoration: none;
-  color: #ffffff;
-  margin: 2rem;
+.nav-shop-aDIV {
+  display: flex;
+  position: relative;
+  align-items: center;
 }
-.nav-shop-a img {
-  width: 9vmin;
-  height: 9vmin;
+.navbar-shop a {
+  width: 90%;
+  height: 100%;
+  z-index: 5;
+
+  position: absolute;
 }
 
+.nav-shop-a h4 {
+  text-decoration: none;
+  color: #ffffff;
+  margin: 1rem;
+}
+.nav-shop-a img {
+  width: 5vmax;
+  height: 5vmax;
+}
 .all {
   align-items: center;
   width: 100vw;
